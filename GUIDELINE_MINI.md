@@ -23,5 +23,5 @@
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
 | `drive_024` |Xe 3 bánh |Không gán. |Schema chỉ có 4 lớp, mô tô/xe máy không gán. |
-| `drive_020` |Xe không rõ lớp |Không tự đoán, không gán nếu không xác định chắc lớp |Quy tắc: mảnh quá nhỏ/không chắc lớp thì ghi case ID và hỏi |
-| `drive_001` |2 xe trồng lên nhau không rõ lớp |Không tự đoán, không gán nếu không xác định chắc lớp |Quy tắc: mảnh quá nhỏ/không chắc lớp thì ghi case ID và hỏi |
+| `drive_009` |Xe xanh lá thân ngắn có cửa sổ ở bên trái: minibus hay van? |Không tự đoán, không gán nếu không xác định chắc lớp |Schema: minibus chở khách là bus, van/minivan là van; ca van/minivan mơ hồ với bus thì ghi và hỏi |
+| `drive_041` |Xe trắng có thùng phía sau ở giữa ảnh: xe bán tải hay xe tải nhỏ? |Không tự đoán, không gán nếu không xác định chắc lớp |Schema: bán tải/cabin nhỏ thuộc car, xe tải chở hàng thuộc truck |
